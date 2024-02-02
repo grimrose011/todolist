@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url('/bg3.jpg') no-repeat center center fixed;
+  min-height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.thick-shadow {
+  box-shadow: 10px 10px 10px rgba(34, 30, 30, 10);
+}
